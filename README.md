@@ -1,3 +1,8 @@
+# 从谷歌仓库fork过来的修改版本
+原版本：`import gin.tf.external_configurables`会报错：
+`AttributeError: module 'tensorflow._api.v1.keras.optimizers' has no attribute 'Ftrl' `
+我删去了gin.tf.external_configurables 的两行话之后就没问题了。调整版本在此。
+
 # Gin
 
 Gin provides a lightweight configuration framework for Python, based on
