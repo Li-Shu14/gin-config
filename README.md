@@ -2,7 +2,12 @@
 原版本：`import gin.tf.external_configurables`会报错：
 `AttributeError: module 'tensorflow._api.v1.keras.optimizers' has no attribute 'Ftrl' `
 我删去了gin.tf.external_configurables 的两行话之后就没问题了。调整版本在此。
-
+安装方法：
+```shell
+git clone https://github.com/Li-Shu14/gin-config.git
+cd gin-config
+python -m setup.py install
+```
 # Gin
 
 Gin provides a lightweight configuration framework for Python, based on
