@@ -6,7 +6,7 @@
 ```shell
 git clone https://github.com/Li-Shu14/gin-config.git
 cd gin-config
-python -m setup.py install
+python -m setup install
 ```
 # Gin
 
